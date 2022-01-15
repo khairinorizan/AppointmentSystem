@@ -1,0 +1,5 @@
+CREATE TABLE Device
+(
+    DeviceID INTEGER PRIMARY KEY IDENTITY,
+    DeviceType VARCHAR(100) NOT NULL
+);

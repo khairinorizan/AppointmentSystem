@@ -1,0 +1,5 @@
+CREATE TABLE WorkStatus
+(
+    WorkStatusID INTEGER PRIMARY KEY IDENTITY,
+    StatusType VARCHAR(100) NOT NULL
+);

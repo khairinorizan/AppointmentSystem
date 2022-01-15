@@ -1,0 +1,9 @@
+CREATE TABLE Engineer
+(
+    EngineerID INTEGER PRIMARY KEY IDENTITY,
+    FirstName VARCHAR(100) NOT NULL,
+    LastName VARCHAR(100) NOT NULL,
+    EmployeeID VARCHAR(10) NOT NULL,
+    EmailAddress VARCHAR(100) NOT NULL,
+    DOB DATE NOT NULL
+);

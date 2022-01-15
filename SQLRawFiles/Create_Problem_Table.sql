@@ -1,0 +1,5 @@
+CREATE TABLE Problem
+(
+    ProblemID INTEGER PRIMARY KEY IDENTITY,
+    ProblemType VARCHAR(100) NOT NULL
+);

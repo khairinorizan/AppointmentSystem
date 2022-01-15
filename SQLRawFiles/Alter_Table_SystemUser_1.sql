@@ -1,0 +1,2 @@
+ALTER TABLE SystemUser
+ADD DepartmentID INTEGER FOREIGN KEY REFERENCES Department(DepartmentID);
