@@ -4,11 +4,13 @@ namespace AppointmentSystemAPI.Data.Model
 {
     public class Engineer
     {
-        private int EngineerID { get; set; }
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        private string EmployeeID { get; set; }
-        private string EmailAddress { get; set; }
-        private DateTime DOB { get; set; }
+        public int EngineerID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string EmployeeID { get; set; }
+        public string EmailAddress { get; set; }
+        public DateTime DOB { get; set; }
+
+        public WorkAssigned WorkAssigned { get; set; }
     }
 }

@@ -2,7 +2,9 @@ namespace AppointmentSystemAPI.Data.Model
 {
     public class WorkStatus
     {
-        private int WorkStatusID { get; set; }
-        private string StatusType { get; set; }
+        public int WorkStatusID { get; set; }
+        public string StatusType { get; set; }
+
+        public WorkAssigned WorkAssigned { get; set; }
     }
 }

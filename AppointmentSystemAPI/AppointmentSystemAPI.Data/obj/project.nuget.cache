@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "QpFERLG7Iw9z8zNedEfkcu2ONwtaQqAbUGswc+qAIJFP6h9SQSN7ux9JVKURyHf/pARmYMe4UIhg0PiW0uMQLg==",
+  "dgSpecHash": "unBGy0sMOZT5zgyRtilTRJTfWZM+djFZ1Q6B70uShn4+DxZJf/PCSphRldyiQlXtJ/1iwrNuMRxgYLhBFtOnIw==",
   "success": true,
   "projectFilePath": "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/AppointmentSystemAPI.Data.csproj",
   "expectedPackageFiles": [
     "/Users/mknrzn/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "/Users/mknrzn/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.1/microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "/Users/mknrzn/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.1/microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
+    "/Users/mknrzn/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.1/microsoft.entityframeworkcore.relational.6.0.1.nupkg.sha512",
     "/Users/mknrzn/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/Users/mknrzn/.nuget/packages/microsoft.extensions.caching.memory/6.0.0/microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
+    "/Users/mknrzn/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/Users/mknrzn/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "/Users/mknrzn/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/mknrzn/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",

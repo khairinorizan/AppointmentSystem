@@ -2,7 +2,7 @@ namespace AppointmentSystemAPI.Data.Model
 {
     public class Device
     {
-        private int DeviceID { get; set; }
-        private string DeviceType { get; set; }
+        public int DeviceID { get; set; }
+        public string DeviceType { get; set; }
     }
 }
