@@ -4,5 +4,7 @@ namespace AppointmentSystemAPI.Data.Model
     {
         public int ProblemID { get; set; }
         public string ProblemType { get; set; }
+
+        public Booking Booking { get; set; }
     }
 }

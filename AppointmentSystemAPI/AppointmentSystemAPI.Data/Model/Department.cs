@@ -5,5 +5,7 @@ namespace AppointmentSystemAPI.Data.Model
         public int DepartmentID { get; set; }
         public string DepartmentName { get; set; }
         public string DepartmentFloor { get; set; }
+
+        public SystemUser SystemUser { get; set; }
     }
 }

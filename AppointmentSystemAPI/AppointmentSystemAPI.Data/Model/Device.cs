@@ -4,5 +4,7 @@ namespace AppointmentSystemAPI.Data.Model
     {
         public int DeviceID { get; set; }
         public string DeviceType { get; set; }
+
+        public Booking Booking { get; set; }
     }
 }

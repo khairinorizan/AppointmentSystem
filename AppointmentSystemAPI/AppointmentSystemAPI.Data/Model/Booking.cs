@@ -12,5 +12,9 @@ namespace AppointmentSystemAPI.Data.Model
         public string Description { get; set; }
 
         public WorkAssigned WorkAssigned { get; set; }
+        public SystemUser SystemUser { get; set; }
+        public Device Device { get; set; }
+        public Problem Problem { get; set; }
+
     }
 }

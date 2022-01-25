@@ -3,11 +3,11 @@ using AppointmentSystemAPI.Data.Model;
 
 namespace AppointmentSystemAPI.Data.Mappings
 {
-    public static class Device
+    public static class DeviceMapping
     {
         public static void MapDevice(this ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Model.Device>(entity =>
+            modelBuilder.Entity<Device>(entity =>
             {
                 entity.HasKey(device => device.DeviceID);
 
