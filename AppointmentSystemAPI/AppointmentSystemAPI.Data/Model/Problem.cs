@@ -2,7 +2,9 @@ namespace AppointmentSystemAPI.Data.Model
 {
     public class Problem
     {
-        private int ProblemID { get; set; }
-        private string ProblemType { get; set; }
+        public int ProblemID { get; set; }
+        public string ProblemType { get; set; }
+
+        public Booking Booking { get; set; }
     }
 }

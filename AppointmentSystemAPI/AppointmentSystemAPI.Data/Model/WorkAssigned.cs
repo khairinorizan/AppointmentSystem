@@ -2,9 +2,13 @@ namespace AppointmentSystemAPI.Data.Model
 {
     public class WorkAssigned
     {
-        private int WorkID { get; set; }
-        private int BookingID { get; set; }
-        private int EngineerID { get; set; }
-        private int StatusID { get; set; }
+        public int WorkID { get; set; }
+        public int BookingID { get; set; }
+        public int EngineerID { get; set; }
+        public int StatusID { get; set; }
+
+        public Booking Booking { get; set; }
+        public Engineer Engineer { get; set; }
+        public WorkStatus WorkStatus { get; set; }
     }
 }
