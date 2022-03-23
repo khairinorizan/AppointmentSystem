@@ -28,7 +28,7 @@ namespace AppointmentSystemAPI.Data.Mappings
                     .HasColumnName("EmployeeID");
 
                 entity
-                    .Property(engineer => engineer.EmployeeID)
+                    .Property(engineer => engineer.EmailAddress)
                     .HasColumnName("EmailAddress");
 
                 entity
