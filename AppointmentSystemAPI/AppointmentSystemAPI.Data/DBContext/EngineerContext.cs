@@ -6,6 +6,8 @@ namespace AppointmentSystemAPI.Data.DBContext
     public class EngineerContext : DbContext
     {
         private readonly string _connectionString;
+        
+        public virtual DbSet<Engineer> Engineers { get; set; }
 
         public EngineerContext(string connectionString)
         {

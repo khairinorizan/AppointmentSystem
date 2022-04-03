@@ -7,6 +7,8 @@ namespace AppointmentSystemAPI.Data.DBContext
     {
         private readonly string _connectionString;
 
+        public virtual DbSet<Department> Departments { get; set; }
+
         public DepartmentContext(string connectionString)
         {
             _connectionString = connectionString;

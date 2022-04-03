@@ -6,6 +6,8 @@ namespace AppointmentSystemAPI.Data.DBContext
     public class ProblemContext : DbContext
     {
         private readonly string _connectionString;
+        
+        public virtual DbSet<Problem> Problems { get; set; }
 
         public ProblemContext(string connectionString)
         {

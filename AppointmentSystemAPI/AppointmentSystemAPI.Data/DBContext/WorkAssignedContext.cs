@@ -6,6 +6,8 @@ namespace AppointmentSystemAPI.Data.DBContext
     public class WorkAssignedContext : DbContext
     {
         private readonly string _connectionString;
+        
+        public virtual DbSet<WorkAssigned> WorkAssigns { get; set; }
 
         public WorkAssignedContext(string connectionString)
         {

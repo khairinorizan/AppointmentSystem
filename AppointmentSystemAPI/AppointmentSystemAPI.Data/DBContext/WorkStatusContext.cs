@@ -6,6 +6,8 @@ namespace AppointmentSystemAPI.Data.DBContext
     public class WorkStatusContext : DbContext
     {
         private readonly string _connectionString;
+        
+        public virtual DbSet<WorkStatus> WorkStatus { get; set; }
 
         public WorkStatusContext(string connectionString)
         {

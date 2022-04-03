@@ -6,6 +6,8 @@ namespace AppointmentSystemAPI.Data.DBContext
     public class DeviceContext : DbContext
     {
         private readonly string _connectionString;
+        
+        public virtual DbSet<Device> Devices { get; set; }
 
         public DeviceContext(string connectionString)
         {

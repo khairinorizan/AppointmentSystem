@@ -6,6 +6,8 @@ namespace AppointmentSystemAPI.Data.DBContext
     public class SystemUserContext : DbContext
     {
         private readonly string _connectionString;
+        
+        public virtual DbSet<SystemUser> SystemUsers { get; set; }
 
         public SystemUserContext(string connectionString)
         {
