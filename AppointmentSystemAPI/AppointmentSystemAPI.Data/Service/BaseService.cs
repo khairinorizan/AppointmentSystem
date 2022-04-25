@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AppointmentSystemAPI.Data.Service
 {
-    public interface IBaseService<TEntity, TModel>
+    public interface IBaseService<TEntity>
     {
         IQueryable<TEntity> GetQueryable { get; }
         IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> filter);
@@ -17,8 +17,8 @@ namespace AppointmentSystemAPI.Data.Service
         void Delete(int id);
     }
 
-    public class BaseService<TEntity, TModel, TContext> : IBaseService<TEntity, TModel> 
-        where TEntity : class where TModel : class where TContext : DbContext
+    public class BaseService<TEntity, TContext> : IBaseService<TEntity> 
+        where TEntity : class where TContext : DbContext
     {
         private readonly IRepository<TContext> _repository;
         private readonly IMapper _mapper;
