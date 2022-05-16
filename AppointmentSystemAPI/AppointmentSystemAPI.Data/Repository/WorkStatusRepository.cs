@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using AppointmentSystemAPI.Data.DBContext;
 using AppointmentSystemAPI.Data.Model;
 

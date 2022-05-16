@@ -1,4 +1,5 @@
 using AppointmentSystemAPI.Data.Model;
+using System.Collections.Generic;
 
 namespace AppointmentSystemAPI.Data.Repository.Interface
 {

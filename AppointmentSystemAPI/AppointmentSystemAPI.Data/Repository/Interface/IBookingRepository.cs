@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using AppointmentSystemAPI.Data.Model;
 
 namespace AppointmentSystemAPI.Data.Repository.Interface
@@ -9,5 +10,5 @@ namespace AppointmentSystemAPI.Data.Repository.Interface
         Booking AddNewBooking(Booking booking);
         List<Booking> AddNewBooking(List<Booking> bookings);
         void RemoveBooking(Booking booking);
-    }   
+    }
 }
