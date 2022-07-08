@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/AppointmentSystemAPI.Data.csproj": {}
+    "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/AppointmentSystemAPI.Data.csproj": {}
   },
   "projects": {
-    "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/AppointmentSystemAPI.Data.csproj": {
+    "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/AppointmentSystemAPI.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/AppointmentSystemAPI.Data.csproj",
+        "projectUniqueName": "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/AppointmentSystemAPI.Data.csproj",
         "projectName": "AppointmentSystemAPI.Data",
-        "projectPath": "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/AppointmentSystemAPI.Data.csproj",
+        "projectPath": "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/AppointmentSystemAPI.Data.csproj",
         "packagesPath": "/Users/mknrzn/.nuget/packages/",
-        "outputPath": "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/obj/",
+        "outputPath": "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mknrzn/.nuget/NuGet/NuGet.Config"
+          "/Users/mknrzn/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,21 +38,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[11.0.1, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.5, )"
             },
-            "System.Reflection": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[6.0.5, )"
             }
           },
           "imports": [
@@ -66,11 +62,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
         }
       }
     }

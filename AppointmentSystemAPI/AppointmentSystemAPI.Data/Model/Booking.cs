@@ -1,7 +1,7 @@
-using System;
-
-namespace AppointmentSystemAPI.Data.Model
+﻿namespace AppointmentSystemAPI.Data.Model
 {
+    using System;
+
     public class Booking
     {
         public int BookingID { get; set; }
@@ -11,10 +11,9 @@ namespace AppointmentSystemAPI.Data.Model
         public int ProblemID { get; set; }
         public string Description { get; set; }
 
-        public WorkAssigned WorkAssigned { get; set; }
+        public WorkAssigned? WorkAssigned { get; set; }
         public SystemUser SystemUser { get; set; }
         public Device Device { get; set; }
         public Problem Problem { get; set; }
-
     }
 }

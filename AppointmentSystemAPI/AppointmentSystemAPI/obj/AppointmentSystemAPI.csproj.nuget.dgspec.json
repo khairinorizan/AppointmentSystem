@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/AppointmentSystemAPI.csproj": {}
+    "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/AppointmentSystemAPI.csproj": {}
   },
   "projects": {
-    "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/AppointmentSystemAPI.csproj": {
+    "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/AppointmentSystemAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/AppointmentSystemAPI.csproj",
+        "projectUniqueName": "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/AppointmentSystemAPI.csproj",
         "projectName": "AppointmentSystemAPI",
-        "projectPath": "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/AppointmentSystemAPI.csproj",
+        "projectPath": "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/AppointmentSystemAPI.csproj",
         "packagesPath": "/Users/mknrzn/.nuget/packages/",
-        "outputPath": "/Volumes/K's Drive/WORKSPACE/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/obj/",
+        "outputPath": "/Users/mknrzn/Projects/AppointmentSystem/AppointmentSystemAPI/AppointmentSystemAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mknrzn/.nuget/NuGet/NuGet.Config"
+          "/Users/mknrzn/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,14 +35,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -61,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
         }
       }
     }

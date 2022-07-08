@@ -1,4 +1,4 @@
-namespace AppointmentSystemAPI.Data.Model
+﻿namespace AppointmentSystemAPI.Data.Model
 {
     public class WorkStatus
     {

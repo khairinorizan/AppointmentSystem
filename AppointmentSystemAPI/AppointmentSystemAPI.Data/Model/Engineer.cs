@@ -1,7 +1,7 @@
-using System;
-
-namespace AppointmentSystemAPI.Data.Model
+﻿namespace AppointmentSystemAPI.Data.Model
 {
+    using System;
+
     public class Engineer
     {
         public int EngineerID { get; set; }
